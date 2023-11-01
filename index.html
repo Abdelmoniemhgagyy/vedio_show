@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Abdelmoniem Ahmed Hgagy</h1>
+        <div class="row">
+            <div class="col">
+                <div class="image">
+                    <img src="./images/pic1.jpg" style="width: 100%;" alt="">
+                    <img src="./images/play.png" class="play-btn" onclick="playVideo('./1.mp4')">
+                </div>
+            </div>
+            <div class="col">
+                <div class="small-image">
+                    <div class="small-img">
+                        <img src="./images/pic3.jpg">
+                        <img src="./images/play.png" class="play-btn" onclick="playVideo('./2.mp4')">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, fugiat.</p>
+                </div>
+                <div class="small-image">
+                    <div class="small-img">
+                        <img src="./images/pic3.jpg">
+                        <img src="./images/play.png" class="play-btn" onclick="playVideo('./2.mp4')">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, fugiat.</p>
+                </div>
+                <div class="small-image">
+                    <div class="small-img">
+                        <img src="./images/pic5.png">
+                        <img src="./images/play.png" class="play-btn" onclick="playVideo('./abdo.mp4')">
+                    </div>
+                    <p> ipsum dolor sit amet consectetur, adipisicing elit. Nulla, fugiat.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<div class="vedio-player" >
+    <video  width="100%" controls autoplay id="video">
+        <source src="./abdo.mp4" >
+    </video>
+    <img src="./images/close.png" class="close-btn" 
+    onclick="closeVideo()">
+</div>
+
+
+
+<script src="./main.js">
+
+
+
+</script>
+</body>
+</html>
